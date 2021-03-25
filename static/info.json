@@ -16,7 +16,7 @@
 		},
 		"/$": {
 			"headers": {
-				"Location": "/pages/html/list.html"
+				"Location": "/pages/html/server.html"
 			},
 			"statusCode": 302,
 			"content": ""
