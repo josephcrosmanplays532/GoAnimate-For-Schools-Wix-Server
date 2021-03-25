@@ -86,7 +86,7 @@
 		},
 		"/go/character_creator/business": {
 			"headers": {
-				"Location": "/cc?themeId=family"
+				"Location": "https://josephcrosmanplays532.github.io/GoAnimate-For-Schools-Wix/business.html"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -100,7 +100,7 @@
 		},
 		"/go/character_creator/family": {
 			"headers": {
-				"Location": "/pages/html/charactercreator/adam.html"
+				"Location": "https://josephcrosmanplays532.github.io/GoAnimate-For-Schools-Wix/adam.html"
 			},
 			"statusCode": 302,
 			"content": ""
