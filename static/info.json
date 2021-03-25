@@ -9,7 +9,14 @@
 		},
 		"/dashboard/videos": {
 			"headers": {
-				"Location": "/pages/html/server.html"
+				"Location": "/pages/html/list.html"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/movie": {
+			"headers": {
+				"Location": "https://josephcrosmanplays532.github.io/GoAnimate-For-Schools-Wix/"
 			},
 			"statusCode": 302,
 			"content": ""
