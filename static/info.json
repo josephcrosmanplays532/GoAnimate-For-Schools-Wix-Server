@@ -2,7 +2,7 @@
 	"GET": {
 		"/index.html": {
 			"headers": {
-				"Location": "/pages/html/server.html"
+				"Location": "server.html"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -14,16 +14,9 @@
 			"statusCode": 302,
 			"content": ""
 		},
-		"/movie": {
-			"headers": {
-				"Location": "https://josephcrosmanplays532.github.io/GoAnimate-For-Schools-Wix/"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
 		"/$": {
 			"headers": {
-				"Location": "/pages/html/server.html"
+				"Location": "server.html"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -147,6 +140,11 @@
 		"pages/img/(.*)(jpg|JPG|jpeg|JPEG)$": {
 			"headers": {
 				"Content-Type": "image/jpeg"
+			}
+		},
+		"server.html(.*)": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
 		"pages/img/(.*)(svg|SVG)$": {
